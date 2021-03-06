@@ -1,9 +1,5 @@
+os: linux
 dist: xenial
-before_install:
-  - wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.xenial_amd64.deb
-  - sudo dpkg -i wkhtmltox_0.12.6-1.xenial_amd64.deb || echo "That is okay that there are errors in the command"
-  - sudo apt-get -f -y install
-after_success: npm run coverage
 language: node_js
 node_js:
   - 0.6

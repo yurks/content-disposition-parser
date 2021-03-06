@@ -10,6 +10,7 @@ Content-Disposition: attachment; filename*=utf-8''%24%20rates; filename="USD rat
 inline; filename=example.txt
 attachment; filename="oїÃ¡Ã¨kа.jpg"
 attachment; filename=oїÃ¡Ã¨kа.jpg
+inline; filename*=iso-8859-1
 inline; filename*=iso-8859-1'en'%C3%A9xampl%C3%A9.txt
 inline; filename*=iso-8859-1''26738271 svoboda
 googleit=8{; filename="26738271 svoboda"; filename*=utf-8''%D1%83%D0%B1%D0%B8%D0%B9%20%D1%83%20%D1%81%D0%BE%D0%B1%D1%96%20%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%B0
