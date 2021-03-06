@@ -1,0 +1,45 @@
+{
+  "name": "content-disposition-parser",
+  "version": "1.0.0",
+  "description": "Parse Content-Disposition HTTP header",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ava --verbose --watch",
+    "test": "eslint . && ava --verbose",
+    "coverage": "nyc --reporter=text-lcov ava | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurks/content-disposition-parser.git"
+  },
+  "keywords": [
+    "content-disposition",
+    "header",
+    "parser",
+    "http",
+    "express",
+    "js",
+    "node",
+    "browser",
+    "js"
+  ],
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "author": "Yurk Sha (http://yurks.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yurks/content-disposition-parser/issues"
+  },
+  "homepage": "https://github.com/yurks/content-disposition-parser#readme",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "coveralls": "^3.1.0",
+    "eslint": "^7.21.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "nyc": "^15.1.0"
+  }
+}
