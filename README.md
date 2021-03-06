@@ -1,5 +1,7 @@
 # content-disposition-parser
 
+[![Build Status][travis-image]][travis-url]
+
 Tiny and fully-tested JS parser for Content-Disposition HTTP header with zero dependencies for nodejs and browser environments.
 
 This library parses a header string, constructing the object with properties it could extract.
@@ -26,7 +28,7 @@ parser("Inline; filename=example.txt; FileName*=ISO-8859-1'en'%C3%A9xampl%C3%A9.
 //-> { encoding: 'iso-8859-1', filename: 'éxamplé.txt', type: 'inline' }
 ```
 
-For more examples check [detailed test cases](test/snapshots/parser.js.md)
+For more examples check [detailed test cases](test/snapshots/parser.js.md).
 
 ## License
 
