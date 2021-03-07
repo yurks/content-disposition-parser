@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-
+    environment: def
     runs-on: ubuntu-latest
 
     strategy:
