@@ -32,4 +32,5 @@ jobs:
     - name: Coveralls
       uses: coverallsapp/github-action@master
       with:
+        node-version: 10.x
         github-token: ${{ secrets.GITHUB_TOKEN }}
