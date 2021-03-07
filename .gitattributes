@@ -1,0 +1,4 @@
+# https://softwareengineering.stackexchange.com/a/367655
+.travis*             export-ignore
+.git*                export-ignore
+package-lock.json    export-ignore
