@@ -25,7 +25,7 @@
     "js"
   ],
   "engines": {
-    "node": ">= 0.6"
+    "node": ">= 10"
   },
   "author": "Yurk Sha (http://yurks.github.io)",
   "license": "MIT",
