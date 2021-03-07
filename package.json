@@ -1,15 +1,12 @@
 {
   "name": "content-disposition-parser",
-  "version": "1.0.0",
-  "description": "Parse Content-Disposition HTTP header",
+  "version": "1.0.1",
+  "description": "Parse Content-Disposition HTTP header. No dependencies, no errors, just parse.",
   "main": "index.js",
-  "files": [
-    "./README.md"
-  ],
+  "files": [],
   "scripts": {
     "dev": "ava --verbose --watch",
-    "test": "eslint . && ava --verbose",
-    "coverage": "nyc --reporter=lcov ava"
+    "test": "eslint . && nyc --reporter=lcov --reporter=text-summary ava --verbose"
   },
   "repository": {
     "type": "git",
@@ -21,6 +18,7 @@
     "parser",
     "http",
     "express",
+    "res",
     "js",
     "node",
     "browser",

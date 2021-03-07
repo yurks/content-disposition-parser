@@ -9,7 +9,6 @@ on:
 
 jobs:
   build:
-    environment: def
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -20,7 +19,6 @@ jobs:
       - run: npm test
 
   publish-npm:
-    environment: def
     needs: build
     runs-on: ubuntu-latest
     steps:

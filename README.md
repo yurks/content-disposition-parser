@@ -1,9 +1,9 @@
 # content-disposition-parser
 
-[![npm version](https://badge.fury.io/js/content-disposition-parser.svg)](https://badge.fury.io/js/content-disposition-parser)
-[![build](https://github.com/yurks/content-disposition-parser/actions/workflows/node.js.yml/badge.svg)](https://github.com/yurks/content-disposition-parser/actions/workflows/node.js.yml)
+[![GitHub release](https://img.shields.io/github/release/yurks/content-disposition-parser.svg)](https://github.com/yurks/content-disposition-parser/releases/)
 [![Build Status](https://travis-ci.org/yurks/content-disposition-parser.svg?branch=main)](https://travis-ci.org/yurks/content-disposition-parser)
 [![Coverage Status](https://coveralls.io/repos/github/yurks/content-disposition-parser/badge.svg)](https://coveralls.io/github/yurks/content-disposition-parser)
+[![GitHub license](https://img.shields.io/github/license/yurks/content-disposition-parser.svg)](https://github.com/yurks/content-disposition-parser/blob/master/LICENSE)
 
 Tiny and fully-tested JS parser for Content-Disposition HTTP header with zero dependencies for nodejs and browser environments.
 
