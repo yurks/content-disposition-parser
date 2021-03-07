@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Parse Content-Disposition HTTP header",
   "main": "index.js",
+  "files": [
+    "./README.md"
+  ],
   "scripts": {
     "dev": "ava --verbose --watch",
     "test": "eslint . && ava --verbose",
