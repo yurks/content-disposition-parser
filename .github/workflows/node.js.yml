@@ -21,20 +21,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Test with Node.js ${{ matrix.node-version }}
+    - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
-    - run: npm test
-
-    - name: Lint
     - run: npm run lint
-
+    - run: npm test
+    - run: npm run coverage
     - name: Coveralls
       uses: coverallsapp/github-action@master
       with:
         github-token: ${{ secrets.COVERALLS_REPO_TOKEN }}
-    - run: npm run coverage
-
-
