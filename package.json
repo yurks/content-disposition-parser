@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ava --verbose --watch",
-    "lint": "eslint .",
-    "test": "ava --verbose",
+    "test": "eslint . && ava --verbose",
     "coverage": "nyc --reporter=lcov ava"
   },
   "repository": {
