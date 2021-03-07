@@ -7,7 +7,7 @@
     "dev": "ava --verbose --watch",
     "lint": "eslint .",
     "test": "ava --verbose",
-    "coverage": "nyc --reporter=text-lcov ava | coveralls"
+    "coverage": "nyc --reporter=lcov ava"
   },
   "repository": {
     "type": "git",
